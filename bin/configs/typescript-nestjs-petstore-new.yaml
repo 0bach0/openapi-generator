@@ -1,0 +1,6 @@
+generatorName: typescript-nestjs
+outputDir: samples/server/petstore/typescript/nestjs
+inputSpec: modules/openapi-generator/src/test/resources/3_0/petstore.yaml
+templateDir: modules/openapi-generator/src/main/resources/typescript-nestjs
+additionalProperties:
+  hideGenerationTimestamp: "true"
