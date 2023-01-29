@@ -12,7 +12,7 @@ public class TypescriptNestjsServerCodegenOptionsProvider implements OptionsProv
 
     @Override
     public String getLanguage() {
-        return "typescript-nestjs";
+        return "typescript-nestjs-server";
     }
 
     @Override

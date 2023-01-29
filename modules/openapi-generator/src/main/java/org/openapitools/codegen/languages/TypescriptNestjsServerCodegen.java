@@ -24,20 +24,20 @@ public class TypescriptNestjsServerCodegen extends DefaultCodegen implements Cod
     }
 
     public String getName() {
-        return "typescript-nestjs";
+        return "typescript-nestjs-server";
     }
 
     public String getHelp() {
-        return "Generates a typescript-nestjs server.";
+        return "Generates a typescript-nestjs-server server.";
     }
 
     public TypescriptNestjsServerCodegen() {
         super();
 
-        outputFolder = "generated-code" + File.separator + "typescript-nestjs";
+        outputFolder = "generated-code" + File.separator + "typescript-nestjs-server";
         modelTemplateFiles.put("model.mustache", ".zz");
         apiTemplateFiles.put("api.mustache", ".zz");
-        embeddedTemplateDir = templateDir = "typescript-nestjs";
+        embeddedTemplateDir = templateDir = "typescript-nestjs-server";
         apiPackage = "Apis";
         modelPackage = "Models";
         supportingFiles.add(new SupportingFile("README.mustache", "", "README.md"));
