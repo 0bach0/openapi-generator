@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
 public class TypescriptNestjsServerCodegen extends DefaultCodegen implements CodegenConfig {
     public static final String PROJECT_NAME = "projectName";
 
-    static final Logger LOGGER = LoggerFactory.getLogger(TypescriptNestjsServerCodegen.class);
+    private final Logger LOGGER = LoggerFactory.getLogger(TypescriptNestjsServerCodegen.class);
 
     public CodegenType getTag() {
         return CodegenType.SERVER;
